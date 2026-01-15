@@ -1,4 +1,6 @@
-# NUMBER GUESSING GAME 
+# NUMBER GUESSING GAME
+# The user has to enter a number between 1 and 100, and according to the closeness of the inputed number to the number decided by the system,
+# show weather it's "Too High" or "Too Low". The game stops when the user guesses the correct number.
 
 
 import random
@@ -25,3 +27,4 @@ while True:
 
 print(f"The answer is {random_num}.")
 print(f"It took you {tries} tries to guess it!")
+
